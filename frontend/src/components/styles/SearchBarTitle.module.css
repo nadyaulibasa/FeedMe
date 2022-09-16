@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin: 0;
+  display: block;
+  position: absolute;
+  bottom: -3vw;
+  color: darkred;
+  font-family: 'Righteous', serif;
+  font-size: 5vw; 
+}
+
+.num_recipes {
+  font-size: 1.6em;
+  text-align: center;
+  font-family: 'Righteous', serif;
+  color: darkred;
+}
+
+.recommended {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.1em;
+  text-align: center;
+  font-family: 'Righteous', serif;
+  color: darkred;
+}

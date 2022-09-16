@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+
+* {
+	box-sizing: border-box;
+	font-family: "Overpass", sans-serif;
+}
+.tag {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #010100;
+	padding: 10px 10px;
+	font-size: 15px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 0 8px 8px 0;
+	background: #FDB750;
+	cursor: pointer;
+}
+
+.tag:hover{
+	color: #821D30;
+	background: #FFC5D0;
+}
+
+.tag_focus {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px;
+	font-size: 15px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 0 8px 8px 0;
+	color: #821D30;
+	background: #FFC5D0;
+	cursor: pointer;
+}
+
+.tag_excluded {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px;
+	font-size: 15px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 0 8px 8px 0;
+	color: white;
+	background: red;
+	cursor: pointer;
+}
+
+.tag_excluded:hover{
+	color: #000000;
+	background: rgb(231, 113, 113);
+}
+
+.tag_included {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 10px;
+	font-size: 15px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 0 8px 8px 0;
+	color: black;
+	background: rgb(56, 235, 36);
+	cursor: pointer;
+}
+
+.tag_card {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: 'wrap';
+	overflow: 'clip';
+	padding: 5px 8px;
+	font-size: 14px;
+	border-radius: 6px;
+	margin: 0 8px 5px 0;
+	color: black;
+	background: rgb(231, 185, 60);
+}
+
+.tag_included:hover{
+	color: #ffffff;
+	background: rgb(6, 79, 17);
+}
+
+.add_tag {
+    height: auto;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 10px 10px;
+	font-size: 15px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 0 8px 8px 0;
+	background: #821D30;
+    cursor: pointer;
+}
+
+.add_tag:hover {
+	color: #821D30;
+	background: #FFC5D0;
+}
+
+.tag_title {
+    margin-top: 3px;
+}
+
